@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name        Direct Link - Fembed API
-// @namespace   Violentmonkey Scripts
+// @namespace   https://www.in4sser.com
 // @match       *://tool.baoxinh.com/forex.cg*
 // @grant       none
 // @version     1.0
 // @author      iN4sser
 // @grant       GM_addStyle
-// @description 2/28/2021, 10:10:31 PM
+// @updateURL   https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.userscript.js
+// @downloadURL https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.userscript.js
+// @description This script will skip the ads/countdown on tool.baoxinh.com's Fembed API
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // ==/UserScript==
 Array.from(document.getElementsByClassName('btn bt-success hidden')).forEach(function(v){v.removeAttribute("disabled");});
