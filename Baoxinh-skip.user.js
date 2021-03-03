@@ -6,8 +6,8 @@
 // @version     1.0
 // @author      iN4sser
 // @grant       GM_addStyle
-// @updateURL   https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.userscript.js
-// @downloadURL https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.userscript.js
+// @updateURL   https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.user.js
+// @downloadURL https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.user.js
 // @description This script will skip the ads/countdown on tool.baoxinh.com's Fembed API
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // ==/UserScript==
