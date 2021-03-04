@@ -11,11 +11,17 @@
 // @description This script will skip the ads/countdown on tool.baoxinh.com's Fembed API
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // ==/UserScript==
+// Auto Select 720p to Download
+Array.prototype.forEach.call(document.getElementsByTagName('a'), function (elem) {
+    if (elem.innerHTML.indexOf('DOWNLOAD LINK 720p') > -1) {
+        window.location = elem.href;
+    }
+});
+// Auto Click the "Get Link" Button
 Array.from(document.getElementsByClassName('btn bt-success hidden')).forEach(function(v){v.removeAttribute("disabled");});
 setTimeout(function() {
     document.getElementById('gotolink').click();
 }, 0);
-
 GM_addStyle ( `
     .panel-heading.text-center, .col-md-12, .navbar-default, div#timer, footer.container, .filename{
     display: none !important;
