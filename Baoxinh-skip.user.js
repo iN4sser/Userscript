@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        Direct Link - Fembed API
 // @namespace   https://www.in4sser.com
-// @match       *://tool.baoxinh.com/forex.cg*
+// @match       *://tool.baoxinh.com/*
 // @grant       none
-// @version     1.0
+// @version     1.2
 // @author      iN4sser
 // @grant       GM_addStyle
 // @updateURL   https://raw.githubusercontent.com/iN4sser/Userscript/raw/main/Baoxinh-skip.user.js
@@ -45,5 +45,8 @@ button#gotolink {
 }
 body{
   visibility: hidden !important;
+}
+.container.clearfix {
+    visibility: visible;
 }
 ` );
