@@ -2,7 +2,7 @@
 // @name        API WhatsApp To WEB WhatsApp
 // @icon        https://i.imgur.com/r2qkepk.png
 // @namespace   Violentmonkey Scripts
-// @include     *://*.whatsapp.com/*
+// @include     *://api.whatsapp.com/*
 // @version     1.0
 // @author      iN4sser
 // @namespace   iN4sser
