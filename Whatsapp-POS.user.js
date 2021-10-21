@@ -4,7 +4,7 @@
 // @namespace   Violentmonkey Scripts
 // @include     *://api.whatsapp.com/*
 // @include     *://web.whatsapp.com/*
-// @version     1.3
+// @version     1.4
 // @author      iN4sser
 // @namespace   iN4sser
 // @grant       GM_addStyle
