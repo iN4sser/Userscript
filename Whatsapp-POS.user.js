@@ -16,15 +16,24 @@
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Whatsapp-POS.user.js
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Whatsapp-POS.user.js
 // ==/UserScript==
+
+// Redirect
 if (location.href.match("api.whatsapp")) {
 	location.href = location.href.replace("api", "web");
 }
+
+// auto send/quit
 window.onload=function(){
- 
   setInterval(autoClick,100);
- 
 }
 function autoClick(){   
   document.getElementsByClassName('_4sWnG')[0].click();
   setTimeout(window.close,5000);
 }
+
+// Hide buttons
+GM_addStyle ( `
+    header._1G3Wr {
+    display: none;
+}
+` );
