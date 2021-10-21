@@ -11,8 +11,8 @@
 // @license     GPL version 2 or any later version; http://www.gnu.org/licenses/gpl-2.0.txt
 // @run-at      document-start
 // @description 9/10/2021, 1:25:20 PM
-// @updateURL   https://github.com/iN4sser/Userscript/raw/main/WhatsApp-API-To-WEB.user.ja
-// @downloadURL https://github.com/iN4sser/Userscript/raw/main/WhatsApp-API-To-WEB.user.ja
+// @updateURL   https://github.com/iN4sser/Userscript/raw/main/WhatsApp-API-To-WEB.user.js
+// @downloadURL https://github.com/iN4sser/Userscript/raw/main/WhatsApp-API-To-WEB.user.js
 // ==/UserScript==
 if (location.href.match("api.whatsapp")) {
 	location.href = location.href.replace("api", "web");
