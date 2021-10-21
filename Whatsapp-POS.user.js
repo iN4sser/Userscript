@@ -33,7 +33,7 @@ function autoClick(){
 
 // Hide buttons
 GM_addStyle ( `
-header._1G3Wr, ._3iu7m, header._23P3O, .ldL67._2i3T7._191H_ {
+header._1G3Wr, ._3iu7m, header._23P3O, .ldL67._2i3T7._191H_, ._2i3w0 {
     display: none;
 }
 ` );
