@@ -4,7 +4,7 @@
 // @namespace   Violentmonkey Scripts
 // @include     *://api.whatsapp.com/*
 // @include     *://web.whatsapp.com/*
-// @version     1.2
+// @version     1.3
 // @author      iN4sser
 // @namespace   iN4sser
 // @grant       GM_addStyle
@@ -33,10 +33,7 @@ function autoClick(){
 
 // Hide buttons
 GM_addStyle ( `
-header._1G3Wr {
-    display: none;
-}
-header._23P3O {
+header._1G3Wr, ._3iu7m, header._23P3O, .ldL67._2i3T7._191H_ {
     display: none;
 }
 ` );
