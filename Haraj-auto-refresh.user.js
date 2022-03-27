@@ -3,7 +3,7 @@
 // @namespace   https://www.in4sser.com
 // @match       *://haraj.com.sa/*
 // @grant       none
-// @version     1.3
+// @version     1.4
 // @author      iN4sser
 // @grant       GM_addStyle
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
@@ -18,4 +18,4 @@ setTimeout(function() {
 		document.querySelector("#root > div > div.postWrapper > div.postMain > div.actions_wrapper.author_actions > button:nth-child(2)").click()
 	}
 });
-}, 1000);
+}, 2000);
