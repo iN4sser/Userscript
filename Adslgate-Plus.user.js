@@ -4,13 +4,14 @@
 // @match       *://www.adslgate.com/*
 // @grant       none
 // @icon        https://www.adslgate.com/dsl/favicon.png
-// @version     1.1
+// @version     1.2
 // @author      iN4sser
 // @grant       GM_addStyle
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Adslgate-Plus.user.js
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Adslgate-Plus.user.js
 // @description تفعيل الثيم الليلي في المنتدى
 // @require     https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
+// @run-at      document-start
 // ==/UserScript==
 
 // Styling
