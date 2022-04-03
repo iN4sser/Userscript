@@ -10,7 +10,7 @@
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Adslgate-Plus.user.js
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Adslgate-Plus.user.js
 // @description تفعيل الثيم الليلي في المنتدى
-// @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
+// @require     https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // ==/UserScript==
 
 // Styling
