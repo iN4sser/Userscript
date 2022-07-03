@@ -6,6 +6,7 @@
 // @version     1.0
 // @author      iN4sser
 // @grant       GM_addStyle
+// @icon        https://v8-cdn.haraj.com.sa/assets/images/icon_96x96.5e07e9b4868f8e0113751d416f54a860.png
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Haraj-dark-mode.user.js
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Haraj-dark-mode.user.js
 // @description هذا السكربت سيقوم باضافة الوضع الليلي في موقع حراج
