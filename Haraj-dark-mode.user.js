@@ -58,6 +58,7 @@ footer, .Box_unique121, .postWrapper .postMain .actions_wrapper, .postWrapper .p
     border-radius: 10px;
 }
 ::-webkit-scrollbar {
-    width: unset;
+    width: 5px;
+    height: 5px;
 }
 ` );
