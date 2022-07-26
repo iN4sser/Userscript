@@ -25,13 +25,16 @@ body, .header, .fFKWfs, #bodyTEXT, .ddm_wrapper{
 footer, .Box_unique121, .postWrapper .postMain .actions_wrapper, .postWrapper .postMain .tags_wrapper, .random-help-message, .addPost, .chat .messenger .message-list{
   background: rgb(30, 39, 50) !important;
 }
-.btn-info, .btn-primary, button.btn-info, button.btn-primary, input.btn-info, input.btn-primary, .Badge_123, .btn-link, a.next_post_btn, .postWrapper .postMain .tags_wrapper a, .postWrapper .postMain .tags_wrapper a:visited, .postWrapper .postMain .actions_wrapper .action_btn:hover, .btn-success, button.btn-success, input.btn-success, .tag-filters__item.btn, button.reply_btn, .icon_wrapper_com, span.ddm_option:hover{
+.btn-info, .btn-primary, button.btn-info, button.btn-primary, input.btn-info, input.btn-primary, .Badge_123, .btn-link, a.next_post_btn, .postWrapper .postMain .tags_wrapper a, .postWrapper .postMain .tags_wrapper a:visited, .postWrapper .postMain .actions_wrapper .action_btn:hover, .btn-success, button.btn-success, input.btn-success, .tag-filters__item.btn, button.reply_btn, .icon_wrapper_com, span.ddm_option:hover, .subfooter{
   color: white !important;
   background-color: #0473c0 !important;
   border-color: unset !important;
 }
 .postWrapper .postMain .details, .brand-logos--svg, .postWrapper .postMain .comment_list_wrapper .comment_wrapper, .ddm_wrapper{
   border: unset !important;
+}
+.postWrapper .postMain .add_comment_wrapper textarea {
+  border: 1px solid #1073c0;
 }
 .bhzglv, .ebrfLJ:hover{
   background: #0473c0 !important;
