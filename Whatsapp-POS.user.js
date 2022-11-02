@@ -28,7 +28,7 @@ window.onload=function(){
 }
 function autoClick(){   
   document.querySelector("#main > footer > div._2BU3P.tm2tP.copyable-area > div > span:nth-child(2) > div > div._2lMWa > div._3HQNh._1Ae7k").click();
-  setTimeout(window.close,5000);
+  setTimeout(window.close,7000);
 }
 
 // Hide buttons
