@@ -7,7 +7,7 @@
 // @grant       none
 // @version     1
 // @author      Nasser Alrayes
-// @description Display total player rating statistics on Futbin Squad pages for SBC.
+// @description Adding some features to Futbin
 // ==/UserScript==
 
 // Squad rating statistics
