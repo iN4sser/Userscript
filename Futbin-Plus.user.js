@@ -81,11 +81,12 @@ if (window.location.href.includes('futbin.com') && window.location.href.includes
     function addYouTubeButton() {
       'use strict';
   
+      const playerPage = document.querySelector("body > div.site-player-page > div.container.p-xs-0 > div.row.col-md-12.padding_5.page-header-top.mt-2 > div.col-md-4.padding_5 > ol > li:nth-child(2) > a");
       const playerName = document.querySelector('.pcdisplay-name').textContent.trim();
-      const searchUrl = `https://www.youtube.com/@InceptionFC/search?query=${playerName}`;
+      const searchUrl = `https://www.youtube.com/results?search_query=${playerPage.textContent.trim()} ${playerName} Review`;
       const iconUrl = 'https://www.youtube.com/s/desktop/0953dc72/img/favicon_48x48.png';
   
-      const iconHtml = `<a href="${searchUrl}" target="_blank"><img src="${iconUrl}" class="YouTubePlayerReview"></a>`;
+      const iconHtml = `<a href="${searchUrl}" target="_blank"><img src="${iconUrl}" class="YouTubePlayerReview" style="display: unset; line-height: 2.7;"></a>`;
   
       const shareTooltip = document.querySelector('.link-holder.inline-block.pt-2');
       shareTooltip.insertAdjacentHTML('afterend', iconHtml);
@@ -93,5 +94,6 @@ if (window.location.href.includes('futbin.com') && window.location.href.includes
   
     window.addEventListener('load', addYouTubeButton);
   }
+  
   
   
