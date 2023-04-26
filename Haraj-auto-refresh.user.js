@@ -1,14 +1,16 @@
 // ==UserScript==
-// @name        تحديث تلقائي للإعلانات - haraj.com.sa
+// @name     تحديث تلقائي للإعلانات - haraj.com.sa
+// @name:en     haraj.com.sa - Auto Update
 // @namespace   https://www.in4sser.com
 // @match       *://haraj.com.sa/*
 // @grant       none
-// @version     1.5
+// @version     1.5.1
 // @author      iN4sser
 // @grant       GM_addStyle
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
 // @description هذا السكربت سيقوم بتحديث اعلاناتك مباشرة بمجرد الدخول عليها
+// @description:en This script will auto-update any post you open in your browser
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // ==/UserScript==
 
