@@ -7,6 +7,8 @@
 // @version     1.5.2
 // @author      iN4sser
 // @grant       GM_addStyle
+// @downloadURL https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
+// @updateURL   https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
 // @description هذا السكربت سيقوم بتحديث اعلاناتك مباشرة بمجرد الدخول عليها
 // @description:en This script will auto-update any post you open in your browser
 // @require  https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
