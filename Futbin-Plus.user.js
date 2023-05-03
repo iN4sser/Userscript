@@ -7,6 +7,8 @@
 // @grant       none
 // @version     1
 // @author      Nasser Alrayes
+// @downloadURL https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
+// @updateURL   https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
 // @description Adding some features to Futbin
 // ==/UserScript==
 
