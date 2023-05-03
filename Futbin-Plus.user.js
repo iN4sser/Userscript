@@ -5,7 +5,7 @@
 // @match       *://*.futbin.com/*/player/*
 // @run-at      document-end
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      Nasser Alrayes
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
