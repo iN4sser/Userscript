@@ -4,7 +4,7 @@
 // @namespace   https://www.in4sser.com
 // @match       *://haraj.com.sa/*
 // @grant       none
-// @version     1.5.2
+// @version     1.5.3
 // @author      iN4sser
 // @grant       GM_addStyle
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Haraj-auto-refresh.user.js
@@ -17,7 +17,7 @@
 setTimeout(function() {
  Array.prototype.forEach.call(document.getElementsByTagName('button'), function(elem) {
 	if (elem.innerHTML.indexOf('تحديث') > -1) {
-		document.querySelector("#__next > div > div.grid.max-w-7xl.grid-cols-1.gap-2.px-2.md\\:mx-auto.lg\\:grid-cols-4 > div.col-span-full.md\\:col-span-3 > div:nth-child(4) > div > div > button:nth-child(2)").click()
+		document.querySelector("#__next > div > div.grid.max-w-7xl.grid-cols-1.gap-2.px-2.md\\:mx-auto.lg\\:grid-cols-4 > div.col-span-full.md\\:col-span-3 > div.px-3 > div.relative > div > div > button:nth-child(2)").click()
 	}
 });
 }, 2500);
