@@ -2,7 +2,7 @@
 // @name        Phone Number to WhatsApp Url
 // @namespace   https://www.in4sser.com
 // @match       *://*/*
-// @version     1.1
+// @version     1.2
 // @author      iN4sser
 // @grant       GM_addStyle
 // @run-at      document-end
@@ -14,9 +14,13 @@
 // ==/UserScript==
 document.addEventListener('DOMSubtreeModified', function () {
     document.querySelectorAll('a[href^="tel:"]').forEach(function (a) {
-        a.href = a.href.replace(/^tel:/, 'https://wa.me/');
+        var phoneNumber = a.href.replace(/^tel:/, '');
+        phoneNumber = phoneNumber.replace(/[^0-9+]/g, '');
+        phoneNumber = phoneNumber.replace(/\s/g, '');
+        a.href = 'https://wa.me/' + phoneNumber;
     });
 });
+
 // check if anything on the page has changed every 100ms and replace the tel: links with whatsapp links
 setInterval(function () {
     document.dispatchEvent(new Event('DOMSubtreeModified')); // trigger the event
