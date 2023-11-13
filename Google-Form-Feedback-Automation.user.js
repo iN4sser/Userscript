@@ -1,13 +1,16 @@
 // ==UserScript==
-// @name        Google Form Feedback Automation v1.2
+// @name        Google Form Feedback Automation v1.3
 // @namespace   Nasser Alrayes
 // @match       *://*.google.*/forms/*
-// @grant       none
-// @version     1.0
-// @author      -
+// @match       https://docs.google.com/*
+// @grant       GM_addStyle
+// @downloadURL https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
+// @updateURL   https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
+// @version     1.3
+// @author      iN4sser
+//@require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @description 10/5/2023, 1:10:51 PM
 // ==/UserScript==
-
 (function() {
     'use strict';
 
