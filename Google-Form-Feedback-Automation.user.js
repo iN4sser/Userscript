@@ -6,7 +6,7 @@
 // @grant       GM_addStyle
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
-// @version     1.5
+// @version     1.6
 // @author      iN4sser
 //@require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @description 10/5/2023, 1:10:51 PM
@@ -14,10 +14,24 @@
 (function() {
     'use strict';
 
-    // Add CSS to hide elements
-    var style = document.createElement('style');
-    style.innerHTML = '.DqBBlb, .I3zNcc.yF4pU, .v1CNvb.sId0Ce { display: none; } .teQAzf { width: 80% !important; } .nWQGrd.zwllIb.UHZXDe { width: 19%; } .lrKTG>.Dq4amc { display: none; }';
-    document.head.appendChild(style);
+// Add CSS to hide elements
+var style = document.createElement('style');
+style.innerHTML = `
+  .DqBBlb, 
+  .I3zNcc.yF4pU, 
+  .v1CNvb.sId0Ce, 
+  .lrKTG>.Dq4amc, 
+  .z12JJ { 
+    display: none; 
+  } 
+  .teQAzf { 
+    width: 80% !important; 
+  } 
+  .nWQGrd.zwllIb.UHZXDe { 
+    width: 19%; 
+  }`;
+document.head.appendChild(style);
+
 
     // Function to click the "Next" button
     function clickNextButton() {
