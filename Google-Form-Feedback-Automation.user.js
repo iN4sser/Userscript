@@ -16,7 +16,7 @@
 
     // Add CSS to hide elements
     var style = document.createElement('style');
-    style.innerHTML = '.DqBBlb, .I3zNcc.yF4pU, .v1CNvb.sId0Ce { display: none; } .teQAzf { width: 80% !important; } .nWQGrd.zwllIb.UHZXDe { width: 19%; }';
+    style.innerHTML = '.DqBBlb, .I3zNcc.yF4pU, .v1CNvb.sId0Ce { display: none; } .teQAzf { width: 80% !important; } .nWQGrd.zwllIb.UHZXDe { width: 19%; } .lrKTG>.Dq4amc { display: none; }';
     document.head.appendChild(style);
 
     // Function to click the "Next" button
