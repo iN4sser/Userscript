@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Google Form Feedback Automation 1.4
+// @name        Google Form Feedback Automation
 // @namespace   Nasser Alrayes
 // @match       *://*.google.*/forms/*
 // @match       https://docs.google.com/*
