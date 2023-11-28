@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name        Google Form Feedback Automation v1.3
+// @name        Google Form Feedback Automation 1.4
 // @namespace   Nasser Alrayes
 // @match       *://*.google.*/forms/*
 // @match       https://docs.google.com/*
 // @grant       GM_addStyle
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
-// @version     1.3
+// @version     1.4
 // @author      iN4sser
 //@require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @description 10/5/2023, 1:10:51 PM
@@ -16,7 +16,7 @@
 
     // Add CSS to hide elements
     var style = document.createElement('style');
-    style.innerHTML = '.DqBBlb, .I3zNcc.yF4pU, .v1CNvb.sId0Ce { display: none; } .teQAzf { width: 80% !important; }';
+    style.innerHTML = '.DqBBlb, .I3zNcc.yF4pU, .v1CNvb.sId0Ce { display: none; } .teQAzf { width: 80% !important; } .nWQGrd.zwllIb.UHZXDe { width: 19%; }';
     document.head.appendChild(style);
 
     // Function to click the "Next" button
