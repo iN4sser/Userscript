@@ -6,7 +6,7 @@
 // @match          *://*.futbin.com/*/player/*
 // @run-at         document-end
 // @grant          none
-// @version        1.2.3
+// @version        1.2.4
 // @author         Nasser Alrayes
 // @downloadURL    https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
 // @updateURL      https://github.com/iN4sser/Userscript/raw/main/Futbin-Plus.user.js
@@ -86,8 +86,9 @@ if (window.location.href.includes('futbin.com') && window.location.href.includes
     function addYouTubeButton() {
       'use strict';
 
-      const playerPage = document.querySelector("body > div.site-player-page.site-player-page-24 > div.rating.ut24.winter_wildcards.gold.rare.prices-area-overlay.special-overlay-img > div.row.links-main-container.pt-1.text-c-white > div > div.row.pull-right.inline-block.links-block")
-      const playerName = document.querySelector('.pcdisplay-name').textContent.trim();
+      const playerPage = document.querySelector("#Player-card > div.pcdisplay-rat");
+      const playerNameElement = document.querySelector("#Player-card > div.pcdisplay-name");
+      const playerName = playerNameElement ? playerNameElement.textContent.trim() : "";
       const searchUrl = `https://www.youtube.com/results?search_query=${playerPage.textContent.trim()} ${playerName} Review`;
       const iconUrl = 'https://www.youtube.com/s/desktop/0953dc72/img/favicon_48x48.png';
 
@@ -99,9 +100,3 @@ if (window.location.href.includes('futbin.com') && window.location.href.includes
 
     window.addEventListener('load', addYouTubeButton);
   }
-
-
-
-  
-  
-  
