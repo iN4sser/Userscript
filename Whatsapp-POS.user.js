@@ -4,7 +4,7 @@
 // @namespace   Violentmonkey Scripts
 // @include     *://api.whatsapp.com/*
 // @include     *://web.whatsapp.com/*
-// @version     1.9
+// @version     1.9.1
 // @author      iN4sser
 // @namespace   iN4sser
 // @grant       GM_addStyle
@@ -27,7 +27,7 @@ window.onload=function(){
   setInterval(autoClick,100);
 }
 function autoClick(){   
-  document.querySelector("#main > footer > div._2lSWV._3cjY2.copyable-area > div > span:nth-child(2) > div > div._1VZX7 > div._2xy_p._3XKXx > button").click();
+  document.querySelector("#main > footer > div._ak1k._ahmw.copyable-area > div > span:nth-child(2) > div > div._ak1r > div._ak1t._ak1u > button").click();
   setTimeout(window.close,7000);
 }
 
