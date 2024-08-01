@@ -6,7 +6,7 @@
 // @grant       GM_addStyle
 // @downloadURL https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
 // @updateURL   https://github.com/iN4sser/Userscript/raw/main/Google-Form-Feedback-Automation.user.js
-// @version     1.8
+// @version     1.8.1
 // @author      iN4sser
 //@require      https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js
 // @description 10/5/2023, 1:10:51 PM
@@ -21,6 +21,7 @@
         .I3zNcc.yF4pU,
         .v1CNvb.sId0Ce,
         .lrKTG > .Dq4amc,
+        Dq4amc,
         .T2dutf {
             display: none;
         }
